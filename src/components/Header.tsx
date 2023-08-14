@@ -2,7 +2,6 @@ function Header() {
   return (
     <div
       style={{
-        // backgroundColor: 'lightblue',
         display: 'flex',
         alignItems: 'center',
         marginTop: '10px',
