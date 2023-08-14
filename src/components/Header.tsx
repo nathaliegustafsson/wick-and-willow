@@ -4,12 +4,14 @@ function Header() {
       style={{
         display: 'flex',
         alignItems: 'center',
-        marginTop: '10px',
+        justifyContent: 'space-around',
+        marginTop: '20px',
         paddingRight: '20px',
         paddingLeft: '20px',
+        marginBottom: '20px',
       }}
     >
-      <div style={{ flexGrow: 1 }}>
+      <div>
         <ul
           style={{
             listStyleType: 'none',
@@ -23,30 +25,42 @@ function Header() {
             style={{
               fontFamily: 'Playfair Display',
               fontSize: '22px',
+              cursor: 'pointer',
             }}
           >
             Home
           </li>
-          <li style={{ fontFamily: 'Playfair Display', fontSize: '22px' }}>
+          <li
+            style={{
+              fontFamily: 'Playfair Display',
+              fontSize: '22px',
+              cursor: 'pointer',
+            }}
+          >
             Products
           </li>
         </ul>
       </div>
 
-      <div style={{ flexGrow: 2, display: 'flex', justifyContent: 'center' }}>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
         <img src="logga.png" alt="logga" style={{ height: '140px' }} />
       </div>
 
-      <div style={{ flexGrow: 1, display: 'flex', justifyContent: 'flex-end' }}>
+      <div style={{ display: 'flex' }}>
         <span
           className="material-symbols-outlined"
-          style={{ fontSize: '50px', fontWeight: 200, marginRight: '10px' }}
+          style={{
+            fontSize: '50px',
+            fontWeight: 200,
+            marginRight: '10px',
+            cursor: 'pointer',
+          }}
         >
           person
         </span>
         <span
           className="material-symbols-outlined"
-          style={{ fontSize: '50px', fontWeight: 200 }}
+          style={{ fontSize: '50px', fontWeight: 200, cursor: 'pointer' }}
         >
           shopping_bag
         </span>
