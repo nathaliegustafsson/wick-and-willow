@@ -1,0 +1,26 @@
+@media (max-width: 1024px) {
+  /* HEADER */
+  .headerContainer {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  /* MASTERHEADER */
+  .MHbackground {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .MHtextContainer {
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+
+  .titleMH {
+    font-size: 52px;
+  }
+
+  .underTitleMH {
+    font-size: 15px;
+  }
+}
