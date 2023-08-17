@@ -32,9 +32,18 @@
   display: none;
 }
 
+.logoContainer {
+  display: flex;
+  justify-content: center;
+}
+
 .logo {
   height: 130px;
   cursor: pointer;
+}
+
+.iconContainer {
+  display: flex;
 }
 
 /* MASTERHEADER */
@@ -72,4 +81,3 @@
   font-weight: 400;
   font-size: 18px;
 }
-

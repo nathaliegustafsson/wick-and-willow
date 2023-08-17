@@ -4,7 +4,7 @@ import '../css/3 - mobile.css';
 
 function Header() {
   return (
-    <div className='header'>
+    <div className="header">
       <div className="headerContainer">
         <div>
           <div className="hamburgermenu">
@@ -26,11 +26,11 @@ function Header() {
           </ul>
         </div>
 
-        <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <div className="logoContainer">
           <img className="logo" src="logga.png" alt="logga" />
         </div>
 
-        <div style={{ display: 'flex' }}>
+        <div className="iconContainer">
           <span
             className="material-symbols-outlined"
             style={{
