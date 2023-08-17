@@ -1,0 +1,75 @@
+/* HEADER */
+.header {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ulLinks {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.linksHeader {
+  font-family: 'Playfair Display';
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.hamburgermenu {
+  display: none;
+}
+
+.logo {
+  height: 130px;
+  cursor: pointer;
+}
+
+/* MASTERHEADER */
+.MasterHeader {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.MHbackground {
+  background-image: url(../assets/candlespic.jpeg);
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.MHtextContainer {
+  position: absolute;
+  margin-left: 140px;
+  margin-top: 120px;
+}
+
+.titleMH {
+  margin: 0;
+  font-family: 'Playfair Display';
+  font-size: 55px;
+  font-weight: 200;
+}
+
+.underTitleMH {
+  margin: auto;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 18px;
+}
+
