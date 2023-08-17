@@ -108,3 +108,21 @@
   text-decoration-thickness: 0.05rem;
   text-underline-offset: 0.25rem;
 }
+
+/* PRODUCTS */
+.products {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.productsContainer {
+  margin-top: 70px;
+}
+
+.productsContainerTitle {
+  display: flex;
+  justify-content: center;
+  font-family: Playfair Display;
+  font-size: 30px;
+  font-weight: 300;
+}
