@@ -1,13 +1,14 @@
+
 function Header() {
   return (
     <div
       style={{
         display: 'flex',
         alignItems: 'center',
-        justifyContent: 'space-around',
+        justifyContent: 'space-between',
+        marginLeft: '120px',
+        marginRight: '120px',
         marginTop: '20px',
-        paddingRight: '20px',
-        paddingLeft: '20px',
         marginBottom: '20px',
       }}
     >
