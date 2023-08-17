@@ -1,3 +1,5 @@
+import candleimage from '../assets/candlespic.jpeg';
+
 function Masterheader() {
   return (
     <div>
@@ -25,22 +27,19 @@ function Masterheader() {
           fontSize: '18px',
         }}
       >
-        NEW COLLABORATION WTH BLOMUS
+        NEW COLLABORATION WITH BLOMUS
       </p>
-      <div>
-        <img
-          src="candlespic.jpeg"
-          alt="candels"
-          style={{
-            width: '80%',
-            position: 'absolute',
-            marginLeft: 'auto',
-            marginRight: 'auto',
-            left: 0,
-            right: 0,
-          }}
-        />
-      </div>
+      <div
+        style={{
+          backgroundImage: `url(${candleimage})`,
+          height: '800px',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+          marginLeft: '120px',
+          marginRight: '120px',
+        }}
+      ></div>
     </div>
   );
 }
