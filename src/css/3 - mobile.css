@@ -1,0 +1,33 @@
+@media (max-width: 640px) {
+  /* HEADER */
+  .ulLinks {
+    display: none;
+  }
+
+  .hamburgermenu {
+    display: block;
+  }
+
+  .logo {
+    height: 110px;
+  }
+
+  /* MASTERHEADER */
+  .MHbackground {
+    height: 600px;
+    background-position: 40% 60%;
+  }
+
+  .MHtextContainer {
+    margin-left: 70px;
+    margin-top: 100px;
+  }
+
+  .titleMH {
+    font-size: 45px;
+  }
+
+  .underTitleMH {
+    font-size: 13px;
+  }
+}
