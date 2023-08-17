@@ -30,4 +30,13 @@
   .underTitleMH {
     font-size: 13px;
   }
+
+  .shopLink {
+    bottom: 2px;
+    right: 18px;
+  }
+
+  .shopAllLink {
+    font-size: 14px;
+  }
 }

@@ -53,6 +53,7 @@
 }
 
 .MHbackground {
+  position: relative;
   background-image: url(../assets/candlespic.jpeg);
   height: 800px;
   background-position: center;
@@ -80,4 +81,17 @@
   font-family: 'Poppins';
   font-weight: 400;
   font-size: 18px;
+}
+
+.shopLink {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  gap: 15px;
+  bottom: 8px;
+  right: 28px;
+}
+
+.shopAllLink {
+  font-family: 'Poppins';
 }
