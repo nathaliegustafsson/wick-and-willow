@@ -1,57 +1,39 @@
+import '../css/desktop.css';
+import '../css/mobile.css';
+import '../css/tablet.css';
 
 function Header() {
   return (
-    <div
-      style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        marginLeft: '120px',
-        marginRight: '120px',
-        marginTop: '20px',
-        marginBottom: '20px',
-      }}
-    >
+    <div className="headerContainer">
       <div>
-        <ul
-          style={{
-            listStyleType: 'none',
-            display: 'flex',
-            gap: '30px',
-            margin: 0,
-            padding: 0,
-          }}
-        >
-          <li
+        <div className="hamburgermenu">
+          <span
+            className="material-symbols-outlined"
             style={{
-              fontFamily: 'Playfair Display',
-              fontSize: '22px',
+              fontSize: '40px',
+              fontWeight: 200,
+              marginRight: '10px',
               cursor: 'pointer',
             }}
           >
-            Home
-          </li>
-          <li
-            style={{
-              fontFamily: 'Playfair Display',
-              fontSize: '22px',
-              cursor: 'pointer',
-            }}
-          >
-            Products
-          </li>
+            menu
+          </span>
+        </div>
+        <ul className="ulLinks">
+          <li className="linksHeader">Home</li>
+          <li className="linksHeader">Products</li>
         </ul>
       </div>
 
       <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src="logga.png" alt="logga" style={{ height: '140px' }} />
+        <img className="logo" src="logga.png" alt="logga" />
       </div>
 
       <div style={{ display: 'flex' }}>
         <span
           className="material-symbols-outlined"
           style={{
-            fontSize: '50px',
+            fontSize: '45px',
             fontWeight: 200,
             marginRight: '10px',
             cursor: 'pointer',
@@ -61,7 +43,11 @@ function Header() {
         </span>
         <span
           className="material-symbols-outlined"
-          style={{ fontSize: '50px', fontWeight: 200, cursor: 'pointer' }}
+          style={{
+            fontSize: '41px',
+            fontWeight: 200,
+            cursor: 'pointer',
+          }}
         >
           shopping_bag
         </span>
