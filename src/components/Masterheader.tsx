@@ -10,6 +10,10 @@ function Masterheader() {
           <h1 className="titleMH">BLOMUS</h1>
           <p className="underTitleMH">NEW COLLABORATION WITH BLOMUS</p>
         </div>
+        <div className="shopLink">
+          <img src="arrow.png" alt="arrow" style={{ height: '10px' }} />
+          <p className='shopAllLink'>SHOP ALL</p>
+        </div>
       </div>
     </div>
   );
