@@ -1,4 +1,5 @@
 import About from './components/About';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Masterheader from './components/Masterheader';
@@ -16,6 +17,7 @@ function App() {
         <Products />
         <About />
         <PictureAndQuote />
+        <Contact />
       </main>
       <footer>
         <Footer />
