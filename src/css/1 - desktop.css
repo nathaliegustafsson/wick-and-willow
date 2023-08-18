@@ -131,8 +131,8 @@
 
 .products {
   display: flex;
-  gap: 70px;
   justify-content: center;
+  gap: 60px;
   margin-top: 70px;
 }
 
@@ -163,12 +163,12 @@ button {
 
 .product1-2 {
   display: flex;
-  gap: 70px;
+  gap: 60px;
 }
 
 .product3-4 {
   display: flex;
-  gap: 70px;
+  gap: 60px;
 }
 
 .product1,
@@ -179,4 +179,3 @@ button {
   flex-direction: column;
   align-items: center;
 }
-
