@@ -129,27 +129,27 @@
   margin-right: 120px;
 }
 
-.product {
+.products {
   display: flex;
-  gap: 78px;
+  gap: 70px;
   justify-content: center;
   margin-top: 70px;
 }
 
 .productImg {
   width: 200px;
+  margin-bottom: 15px;
 }
 
 .productTitle {
   font-family: 'Poppins';
   font-weight: 400;
-  margin-top: 15px;
+  margin: 0;
 }
 
 .price {
   font-family: 'Poppins';
   font-weight: 200;
-  margin-top: 5px;
 }
 
 button {
@@ -161,6 +161,16 @@ button {
   font-weight: 400;
 }
 
+.product1-2 {
+  display: flex;
+  gap: 70px;
+}
+
+.product3-4 {
+  display: flex;
+  gap: 70px;
+}
+
 .product1,
 .product2,
 .product3,
@@ -169,3 +179,4 @@ button {
   flex-direction: column;
   align-items: center;
 }
+

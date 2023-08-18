@@ -23,4 +23,10 @@
   .underTitleMH {
     font-size: 15px;
   }
+
+  /* PRODUCTS */
+  .products {
+    flex-direction: column;
+    align-items: center;
+  }
 }
