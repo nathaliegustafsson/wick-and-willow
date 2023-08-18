@@ -45,6 +45,14 @@ function Products() {
             </div>
           </div>
         </div>
+        <div className="shopLinkproducts">
+          <img
+            src="arrow.png"
+            alt="arrow"
+            style={{ height: '10px', cursor: 'pointer' }}
+          />
+          <p className="shopAllLink">SHOP ALL</p>
+        </div>
       </div>
     </div>
   );

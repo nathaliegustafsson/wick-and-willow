@@ -36,5 +36,13 @@
     align-items: center;
   }
 
+  .product1-2 {
+    display: flex;
+    gap: 50px;
+  }
 
+  .product3-4 {
+    display: flex;
+    gap: 50px;
+  }
 }
