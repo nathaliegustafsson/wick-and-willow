@@ -159,6 +159,7 @@ button {
   background-color: #b1b6a7;
   font-family: 'Poppins';
   font-weight: 400;
+  cursor: pointer;
 }
 
 .product1-2 {
