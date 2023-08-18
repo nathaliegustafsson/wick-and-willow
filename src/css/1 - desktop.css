@@ -67,6 +67,7 @@
   background-size: cover;
   margin-left: 120px;
   margin-right: 120px;
+  margin-bottom: 70px;
 }
 
 .MHtextContainer {
@@ -115,14 +116,14 @@
   max-width: 1440px;
 }
 
-.productsContainer {
-  margin-top: 70px;
-}
-
 .productsContainerTitle {
   display: flex;
   justify-content: center;
   font-family: Playfair Display;
   font-size: 30px;
   font-weight: 300;
+}
+
+.productImg {
+  width: 200px;
 }
