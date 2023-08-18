@@ -1,3 +1,4 @@
+import About from './components/About';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Masterheader from './components/Masterheader';
@@ -13,6 +14,7 @@ function App() {
       <main>
         <Masterheader />
         <Products />
+        <About />
         <PictureAndQuote />
       </main>
       <footer>
