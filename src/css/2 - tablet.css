@@ -45,4 +45,10 @@
     display: flex;
     gap: 50px;
   }
+
+  /* ABOUT */
+  .aboutContainer {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }

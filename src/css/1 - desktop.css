@@ -190,3 +190,31 @@ button {
   bottom: 8px;
   right: 28px;
 }
+
+/* ABOUT */
+.aboutContainer {
+  margin: 0 auto;
+  max-width: 1440px;
+  background-color: white;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 60px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.aboutTitle {
+  font-family: 'Playfair Display';
+  font-size: 50px;
+  font-weight: 200;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.aboutText {
+  font-family: 'Poppins';
+  font-size: 15px;
+  font-weight: 200;
+}
