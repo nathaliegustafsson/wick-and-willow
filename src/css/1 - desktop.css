@@ -220,7 +220,6 @@ button {
 }
 
 /* PICTURE AND QUOTE */
-
 .pictureAndQuoteContainer {
   margin-left: 120px;
   margin-right: 120px;
@@ -251,4 +250,10 @@ button {
   font-family: 'Playfair Display';
   font-size: 25px;
   font-weight: 200;
+}
+
+/* CONTACT */
+.contactContainer {
+  margin-left: 120px;
+  margin-right: 120px;
 }
