@@ -39,4 +39,14 @@
   .shopAllLink {
     font-size: 14px;
   }
+
+  /* PICTURE AND QUOTE */
+  .picture {
+    height: 350px;
+  }
+
+  .quoteText {
+    width: 70%;
+    font-size: 19px;
+  }
 }

@@ -218,3 +218,37 @@ button {
   font-size: 15px;
   font-weight: 200;
 }
+
+/* PICTURE AND QUOTE */
+
+.pictureAndQuoteContainer {
+  margin-left: 120px;
+  margin-right: 120px;
+  display: flex;
+}
+
+.picture {
+  display: flex;
+  flex-grow: 1;
+  height: 550px;
+  width: 100%;
+  background-image: url(../picture.jpeg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.quote {
+  background-color: #8c8e82;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.quoteText {
+  width: 55%;
+  font-family: 'Playfair Display';
+  font-size: 25px;
+  font-weight: 200;
+}

@@ -51,4 +51,18 @@
     margin-left: 0px;
     margin-right: 0px;
   }
+
+  /* PICTURE AND QUOTE */
+  .pictureAndQuoteContainer {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .picture {
+    height: 450px;
+  }
+
+  .quoteText {
+    font-size: 20px;
+  }
 }
