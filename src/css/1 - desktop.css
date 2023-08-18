@@ -192,6 +192,11 @@ button {
 }
 
 /* ABOUT */
+.aboutBigContainer {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
 .aboutContainer {
   margin: 0 auto;
   max-width: 1440px;
@@ -220,6 +225,11 @@ button {
 }
 
 /* PICTURE AND QUOTE */
+.pictureAndQuoteBigContainer {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
 .pictureAndQuoteContainer {
   margin-left: 120px;
   margin-right: 120px;
@@ -253,6 +263,11 @@ button {
 }
 
 /* CONTACT */
+.contactBigContainer {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
 .contactContainer {
   margin-left: 120px;
   margin-right: 120px;
