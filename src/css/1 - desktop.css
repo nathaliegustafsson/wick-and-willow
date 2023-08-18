@@ -60,7 +60,7 @@
 
 .MHbackground {
   position: relative;
-  background-image: url(./candlespic.jpeg);
+  background-image: url(../candlespic.jpeg);
   height: 800px;
   background-position: center;
   background-repeat: no-repeat;
