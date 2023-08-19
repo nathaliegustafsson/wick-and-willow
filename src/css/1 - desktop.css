@@ -355,3 +355,53 @@ textarea:focus {
 .submitBtn:hover {
   background-color: #8c8e82;
 }
+
+/* FOOTER */
+.footerBigContainer {
+  margin: 0 auto;
+  max-width: 1440px;
+  margin-top: 50px;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin-left: 120px;
+  margin-right: 120px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.logoFooterContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.logoFooter {
+  width: 200px;
+  cursor: pointer;
+}
+
+.footerLinksContainer {
+  display: flex;
+  gap: 60px;
+  font-family: 'Poppins';
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.footerLinksLeft p,
+.footerLinksRight p {
+  cursor: pointer;
+}
+
+.footerLinksLeft p:hover,
+.footerLinksRight p:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.05rem;
+  text-underline-offset: 0.25rem;
+}
