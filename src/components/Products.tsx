@@ -13,7 +13,7 @@ function Products() {
               />
               <h4 className="productTitle">SANDALWOOD MYRRH</h4>
               <p className="price">200 SEK</p>
-              <button>ADD TO CART</button>
+              <button className="addBtn">ADD TO CART</button>
             </div>
             <div className="product2">
               <img
@@ -23,7 +23,7 @@ function Products() {
               />
               <h4 className="productTitle">BASIL & BERGAMOTT</h4>
               <p className="price">200 SEK</p>
-              <button>ADD TO CART</button>
+              <button className="addBtn">ADD TO CART</button>
             </div>
           </div>
           <div className="product3-4">
@@ -31,7 +31,7 @@ function Products() {
               <img className="productImg" src="./candlepink.webp" alt="fig" />
               <h4 className="productTitle">FIG</h4>
               <p className="price">200 SEK</p>
-              <button>ADD TO CART</button>
+              <button className="addBtn">ADD TO CART</button>
             </div>
             <div className="product4">
               <img
@@ -41,7 +41,7 @@ function Products() {
               />
               <h4 className="productTitle">CINNAMON & APPLE</h4>
               <p className="price">200 SEK</p>
-              <button>ADD TO CART</button>
+              <button className="addBtn">ADD TO CART</button>
             </div>
           </div>
         </div>
