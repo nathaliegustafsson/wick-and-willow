@@ -74,4 +74,15 @@
   .formContainer {
     width: 500px;
   }
+
+  /* FOOTER */
+  .footerContainer {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .logoFooter {
+    width: 180px;
+  }
+
 }

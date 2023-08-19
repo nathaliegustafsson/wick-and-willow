@@ -59,4 +59,16 @@
   .formContainer {
     width: 350px;
   }
+
+  /* FOOTER */
+  .footerContainer {
+    flex-direction: column-reverse;
+    gap: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .logoFooterContainer {
+    align-items: center;
+  }
 }
