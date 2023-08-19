@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="header">
       <div className="headerContainer">
-        <div>
+        <div className='menuHeader'>
           <div className="hamburgermenu">
             <span
               className="material-symbols-outlined"
