@@ -70,4 +70,8 @@
   .contactText {
     width: 100%;
   }
+
+  .formContainer {
+    width: 500px;
+  }
 }

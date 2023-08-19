@@ -55,4 +55,8 @@
     margin-left: 70px;
     margin-right: 70px;
   }
+
+  .formContainer {
+    width: 350px;
+  }
 }
