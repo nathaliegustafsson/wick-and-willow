@@ -65,4 +65,9 @@
   .quoteText {
     font-size: 20px;
   }
+
+  /* CONTACT */
+  .contactText {
+    width: 100%;
+  }
 }

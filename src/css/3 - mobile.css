@@ -49,4 +49,10 @@
     width: 70%;
     font-size: 19px;
   }
+
+  /* CONTACT */
+  .contactContainer {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
 }
