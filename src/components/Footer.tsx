@@ -10,6 +10,7 @@ function Footer() {
               fontSize: '13px',
               fontWeight: '300',
               marginTop: '20px',
+              marginBottom: '0px'
             }}
           >
             Copyright 2023. All rights reserved
