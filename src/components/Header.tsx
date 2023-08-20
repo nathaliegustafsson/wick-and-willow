@@ -34,9 +34,9 @@ function Header() {
           <span
             className="material-symbols-outlined"
             style={{
-              fontSize: '45px',
+              fontSize: '41px',
               fontWeight: 200,
-              marginRight: '10px',
+              marginRight: '8px',
               cursor: 'pointer',
             }}
           >
@@ -45,7 +45,7 @@ function Header() {
           <span
             className="material-symbols-outlined"
             style={{
-              fontSize: '41px',
+              fontSize: '37px',
               fontWeight: 200,
               cursor: 'pointer',
             }}
