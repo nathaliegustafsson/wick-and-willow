@@ -1,4 +1,4 @@
-# <img src="./public/logowide.png" width="170rem"/>
+# <img src="./public/logoWide.png" width="170rem"/>
 
 # Wick & Willow
 
