@@ -4,17 +4,6 @@ function Footer() {
       <div className="footerContainer">
         <div className="logoFooterContainer">
           <img className="logoFooter" src="./logoWide.png" alt="logoWide" />
-          <p
-            style={{
-              fontFamily: 'Poppins',
-              fontSize: '13px',
-              fontWeight: '300',
-              marginTop: '20px',
-              marginBottom: '0px'
-            }}
-          >
-            Copyright 2023. All rights reserved
-          </p>
         </div>
         <div className="footerLinksContainer">
           <div className="footerLinksLeft">
